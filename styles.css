@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+
+    font-size: 16px;
+    /* CSS HEX */
+    --silver: #a5a19d;
+    --silver-2: #C6C0B6ff;
+    --chocolate-cosmos: #5B1C1Dff;
+    --field-drab: #65512Cff;
+    --white-smoke: #F3F3F3ff;
+
+}
+
+* {
+    /* border: 1px dotted blue; */
+}
+
+h1 {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--white-smoke);
+    color: #333;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 6fr .5fr;
+
+}
+
+header,
+footer {
+    background-color: var(--field-drab);
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.header-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+nav {
+    /* border: 2px solid var(--silver-2); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul {
+    background-color: var(--field-drab);
+    height: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.floral-nav-divider {
+    width: 20%;
+    height: auto;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    padding: 5px;
+}
+
+nav a {
+    font-size: 1.2em;
+}
+
+main {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    /* margin: 20px 0; */
+    justify-self: center;
+    align-self: center;
+}
+
+h1 {
+    color: var(--white-smoke);
+}
+
+h2 {
+    color: var(--chocolate-cosmos);
+}
+
+a {
+    color: var(--white-smoke);
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    color: var(--chocolate-cosmos);
+}
+
+
+footer {
+    width: 100%;
+    padding: 10px 0;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    font-size: 1.2em;
+}
+
+footer p {
+    color: var(--silver-2);
+}
+
+[href="https://www.flaticon.com/free-icons/divider"] {
+    font-size: .5em;
+}
